@@ -36,7 +36,7 @@
         <!--配置MyBatis全局配置文件：mybatis-config.xml-->
         <!--idea maven开发时，java文件夹跟resources文件夹都是类路径-->
         <!--配置MyBatis全局配置信息-->
-        <property name="configLocation" value="mybatis-config.xml"/>
+        <property name="configLocation" value="classpath:mybatis-config.xml"/>
         <!--扫描entity包使用别名省略包名-->
         <property name="typeAliasesPackage" value="com.liyingyu.seckill.entity"/>
         <!--扫描sql配置文件：mapper需要的xml文件-->
